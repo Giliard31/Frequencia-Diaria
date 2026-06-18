@@ -1,7 +1,7 @@
 {
   "name": "Controle de Frequência",
   "short_name": "Frequência",
-  "start_url": "./Index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#1e293b",
   "theme_color": "#1e293b",
