@@ -1,5 +1,5 @@
 const CACHE_NAME = 'frequencia-v1';
-const assets = ['./Index.html', './manifest.json'];
+const assets = ['./index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(assets)));
